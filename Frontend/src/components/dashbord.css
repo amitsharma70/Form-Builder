@@ -1,0 +1,44 @@
+/* dashboard.css */
+.dashboard-container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.new-application-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.new-application-button:hover {
+  background-color: #45a049;
+}
+
+/* application card styling */
+.application-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.application-card h4 {
+  margin: 0;
+}
+
+.application-card button {
+  background-color: #007BFF;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.application-card button:hover {
+  background-color: #0056b3;
+}

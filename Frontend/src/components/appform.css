@@ -1,0 +1,60 @@
+/* appform.css */
+.application-form-container {
+  margin-top: 200px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application-form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .application-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .application-form input,
+  .application-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .application-form textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .application-form input[type="file"] {
+    padding: 5px;
+  }
+  
+  .application-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .application-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .application-form input:focus,
+  .application-form textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  

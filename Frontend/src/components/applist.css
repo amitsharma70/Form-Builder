@@ -1,0 +1,32 @@
+/* ApplicationList.css */
+.application-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .application-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application-card p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
